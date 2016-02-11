@@ -1,0 +1,72 @@
+Ram Usage Table|
+================
+
+[0-99:	Temp] (GDB0) {
+		0-9:	Temp Level 0	(GDB0TEMP0)
+		10-19:	Temp Level 1	(GDB0TEMP1)
+		20-29:	Temp Level 3	(GDB0TEMP2)
+		30-39:	Temp Level 4	(GDB0TEMP3)
+}
+	
+[100-199:	Engine Values] (GDB7) {
+		100:	Is Running				(GDB7RUNNING)
+		101:	Current Render Item		(GDB7RENDERITEM)
+		102:	Redraw Request Pending	(GDB7REDRAW)
+		103:	Pressed Key				(GDB7KEY)
+		104:	Is KeyPress new?		(GDB7NEWKEY)
+}
+	
+[200-399:	Current Mode Values] (GDB8) {
+
+	[200-399:	Splashscreen] {
+	
+	}
+	
+	[200-399:	Menu] {
+		200:	Menu Item		(GDB8MENUITEM)
+	}
+	
+	[200-399:	Stats] {
+		
+	}
+	
+	[200-399:	Settings] {
+		
+	}
+	
+	[200-399:	Game] {
+		200:		X-Position			(GDB8XPOS)
+		201:		Y-Position			(GDB8YPOS)
+		202:		New X-Position		(GDB8NEWXPOS)
+		203:		New Y-Position		(GDB8NEWYPOS)
+		204-205:	Level Pack Pointer	(GDB8LVLPKPTR)
+		206-207:	Level Pointer		(GDB8LVLPTR)
+		208:		Level Index			(GDB8LVLINDEX)
+		209:		Points				(GDB8POINTS)
+		210:		Lives				(GDB8LIVES)
+		211:		Total moves			(GDB8TOTMOVES)
+		212:		Step counter		(GDB8STEPS)
+		213:		Tiles left			(GDB8TILESLEFT)
+	}
+}
+	
+[400-599:	Current Level Values] (GDB9) {
+
+	[500-539:	Current Level Data] {
+		500-509:	Level Header	(GDB9LVLHEADER)
+		510-539:	Map Data		(GDB9MAPDATA)
+	}
+	
+	[540-557:		Portal Out Lookup Table] {
+		540:		Portal A Count	(GDB9POLOOKUPAC)
+		541:		Portal B Count	(GDB9POLOOKUPBC)
+		542-549:	Portal A Table	(GDB9POLOOKUPAT)
+		550-557:	Portal B Table	(GDB9POLOOKUPBT)
+	}
+	
+	[558-574]:		Tile Statistics] {
+		558:		White Tile Count	(GDB9WHTILEC)
+		559:		Black Tile Count	(GDB9BLTILEC)
+		560:		Solid Tile Count	(GDB9SOTILEC)
+	}
+}

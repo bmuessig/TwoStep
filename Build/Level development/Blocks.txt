@@ -1,0 +1,12 @@
+0 - Empty
+1 - Tile
+2 - Solid
+3 - Checkpoint
+4 - Platform
+...
+A - Portal A In
+B - Portal A Out
+C - Portal B In
+D - Portal B Out
+E - Door
+F - Button

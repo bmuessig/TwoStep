@@ -1,0 +1,14 @@
+Level creator tutorial:
+
+You will need Axe to compile and run the source file that generates the levelpack.
+
+This is how to make levels:
+1. Grab a sheet of paper and design some levels that you might find interesting. Choose a start position and the start and endpoints of the portals (you can have multiple inputs and outputs per portal channel A and B; every input of a channel goes to a random output of a portal of the same channel).
+2. The size of a level is 10x6. The list and value of the blocks is attached.
+3. Build the hex version of the level by going row by row. Start in the upper-left corner and go right. Then go to row 2 and proceed. To write the hexadecimal representation of the blocks, just write the hex character of the block. Two blocks build one byte. The MSB of the byte is the left block of the pair and the LSB is the right block of the pair.
+4. Build the [] blocks of the levels like in the default level pack file attached. Just take the hex representation.
+5. Build the Data() block for every level as shown in the sample level. Make sure you understand the header format: [encloses bits] {encloses single bytes} (encloses multiple {bytes})
+6. Finally build the initial Data() block as described in the devkit.
+7. Compile and run the Axe program. You have to run it, what will make it create your actual level file. You can delete the compiled Axe file if you want; it is not needed anymore.
+
+Have fun!

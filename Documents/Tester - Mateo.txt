@@ -1,0 +1,32 @@
+01:37:39 (C) Muessigb: Thanks! 
+01:37:26 (C) MateoConLechuga: Ah, okay. Good luck! :) 
+01:37:25 (C) ***scAFwATLxpKzRCmVaHv has logged in. 
+01:36:39 (C) Muessigb: and a proper game over screen too :) 
+01:36:23 (C) Muessigb: of course. there will be a level selection screen and high score tables. but right now, i'm still working on them :) 
+01:35:33 (C) MateoConLechuga: A readme. :) Also, instead of exiting to the main menu, could it just restart at level one or something? :) 
+01:35:26 (C) ***solarsoftware has entered the room. 
+01:36:39 (C) Muessigb: and a proper game over screen too :) 
+01:36:23 (C) Muessigb: of course. there will be a level selection screen and high score tables. but right now, i'm still working on them :) 
+01:35:33 (C) MateoConLechuga: A readme. :) Also, instead of exiting to the main menu, could it just restart at level one or something? :) 
+01:35:26 (C) ***solarsoftware has entered the room. 
+01:35:26 (C) ***solarsoftware has logged in. 
+01:34:11 (C) Muessigb: yes :). I hope you like the game. What else do you think should a improve? 
+01:33:38 (C) MateoConLechuga: Just reminds me of collecting squares. :) 
+01:33:21 (C) MateoConLechuga: Muessigb: No, no, it's totally different. :) 
+01:32:47 (C) Muessigb: well i didn't copy :P 
+01:32:33 (C) Muessigb: ah :D 
+01:32:12 (C) MateoConLechuga: Kind of reminds me of my Cubix game. :P
+01:31:57 (C) Muessigb: great :) 
+01:31:47 (C) MateoConLechuga: Whoo, just beat the first level! :) 
+01:31:12 (C) MateoConLechuga: Oh, that makes sense then. Thanks! :) 
+01:30:47 (C) Muessigb: You need to step onto each of the black tiles. If you loose one live, you have to restart the level. if you loose all, to return to menu 
+01:30:29 (C) MateoConLechuga: Now that makes more sense. :) Also, I just figured out the screen wraps. :P 
+01:29:58 (C) Muessigb: @Mateo: Where tile id 0=blank; 1=black tile; 2=solid block; A=Portal A entrance; B=Portal A output; C=Portal B entrance; D= Portal B output 
+01:29:34 (C) MateoConLechuga: Ah, okay. 
+01:28:51 (C) Muessigb: @Mateo: Well, the numbers are from left to right: X,Y,TileID,Remaining steps,Lives,Black Tiles left 
+01:28:17 (C) MateoConLechuga: Muessigb: No, in the 0000 thing on the bottom it displays 000B. Also, one the first level, when I can't get it, it sends me back to the home screen. 
+01:27:16 (C) Muessigb: Did it crash? 
+01:26:46 (C) MateoConLechuga: Muessigb: I got the number 000B... 
+01:26:13 (C) Muessigb: @Mateo: No Problem. I'm going to implement that. :) 
+01:25:34 (C) MateoConLechuga: Muessigb: Great; you might want to make the main menu button [2ND] as well as [ENTER]. :P 
+01:23:44 (C) Muessigb: @Mateo: How does it look like?

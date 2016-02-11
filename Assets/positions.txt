@@ -1,0 +1,4 @@
+Logo; 7,3 (80x32px)
+Play; 8,38 (24x16px)
+Stats; 35,38 (24x16px)
+Settings; 62,38 (24x16px)
